@@ -6,4 +6,5 @@ export interface Film {
     rating: number;
     link: string;
     images: string;
+    description?: string;
 }

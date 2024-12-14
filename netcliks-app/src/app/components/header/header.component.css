@@ -4,10 +4,14 @@
   }
   
   .header-box {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .header-logo {
+    text-decoration: none;
   }
   
   .header-logo h1 {
@@ -16,6 +20,7 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 29px;
+    color: rgb(0, 0, 0);
   }
   
   .header-logo p {
@@ -24,6 +29,7 @@
     font-size: 12px;
     font-weight: 300;
     line-height: 15px;
+    color: rgb(0, 0, 0);
   }
   
   .header-controls a {

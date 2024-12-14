@@ -1,5 +1,10 @@
+
+:host {
+  width: calc((100% - (30px * 2)) / 3);
+}
+
 .content-cards_items {
-    width: calc((100% - (30px * 2)) / 3);
+    width: 100%;
     text-decoration: none;
   }
   
@@ -58,15 +63,14 @@
   }
 
   @media (max-width: 991px) {
-    .content-cards_items {
-      width: calc((100% - (30px * 1)) / 2);
+    :host {
+      width: calc((100% - (30px * 2)) / 3);
     }
   }
   
   
   @media (max-width: 480px) {
-    .content-cards_items {
+    :host {
       width: 100%;
-      min-width: 100%;
     }
   }
